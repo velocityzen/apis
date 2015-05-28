@@ -1,48 +1,52 @@
 {
-	"name": "apis",
-	"version": "0.0.3",
-	"description": "Library for creation web and websocket restful APIs",
-	"keywords": ["api", "rest", "web", "websocket"],
-	"author": {
-		"name": "Dmitry Smolin",
-		"email": "dimsmol@gmail.com"
-	},
-	"preferGlobal": false,
-	"private": false,
-	"dependencies": {
-		"inherits": "~2.0.1",
-		"express": "~2.5.11",
-		"hyperquest": "~0.1.5",
-		"ain2": "~1.1.1",
-		"send": "~0.0.4",
-		"cookie": "~0.0.4",
-		"sockjs": "~0.3.1",
-		"marked_types": "~0.0.1",
-		"nerr": "~0.1.0",
-		"valid": "~0.1.0",
-		"units": "~0.0.1",
-		"authen": "~0.0.2",
-		"ops": "~0.0.1",
-
-		"trun": "~0.0.1"
-	},
-	"engines": {
-		"node": ">=0.10.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dimsmol/apis"
-	},
-	"bin": {
-		"apis": "./bin/apis"
-	},
-	"directories": {
-		"lib": "./lib",
-		"bin": "./bin"
-	},
-	"scripts": {
-		"start": "node bin/apis start",
-		"stop": "node bin/apis stop"
-	},
-	"main": "./lib/index"
+  "name": "apis",
+  "version": "0.0.3",
+  "description": "Library for creation web and websocket restful APIs",
+  "keywords": [
+    "api",
+    "rest",
+    "web",
+    "websocket"
+  ],
+  "author": {
+    "name": "Dmitry Smolin",
+    "email": "dimsmol@gmail.com"
+  },
+  "preferGlobal": false,
+  "private": false,
+  "dependencies": {
+    "ain2": "~1.1.1",
+    "authen": "~0.0.2",
+    "cookie": "~0.0.4",
+    "express": "~2.5.11",
+    "hyperquest": "~0.1.5",
+    "inherits": "~2.0.1",
+    "marked_types": "~0.0.1",
+    "nerr": "~0.1.0",
+    "ops": "~0.0.1",
+    "send": "~0.0.4",
+    "trun": "~0.0.1",
+    "units": "~0.0.1",
+    "valid": "~0.1.0",
+    "ws": "^0.7.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimsmol/apis"
+  },
+  "bin": {
+    "apis": "./bin/apis"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "scripts": {
+    "start": "node bin/apis start",
+    "stop": "node bin/apis stop"
+  },
+  "main": "./lib/index"
 }
