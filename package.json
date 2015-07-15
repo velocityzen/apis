@@ -1,6 +1,6 @@
 {
   "name": "apis",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Library for creation web and websocket restful APIs",
   "keywords": [
     "api",
