@@ -12,8 +12,6 @@
     "name": "Dmitry Smolin",
     "email": "dimsmol@gmail.com"
   },
-  "preferGlobal": false,
-  "private": false,
   "dependencies": {
     "ain2": "~1.1.1",
     "authen": "~0.0.2",
@@ -30,12 +28,9 @@
     "valid": "~0.1.0",
     "ws": "^0.7.2"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dimsmol/apis"
+    "url": "https://github.com/velocityzen/apis"
   },
   "bin": {
     "apis": "./bin/apis"
