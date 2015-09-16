@@ -17,7 +17,7 @@
     "authen": "~0.0.2",
     "cookie": "~0.2.0",
     "express": "~2.5.11",
-    "hyperquest": "~0.1.5",
+    "hyperquest": "~1.2.0",
     "inherits": "~2.0.1",
     "marked_types": "~0.0.1",
     "nerr": "~0.1.0",
